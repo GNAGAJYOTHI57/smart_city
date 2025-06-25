@@ -1,0 +1,41 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+.user {
+  text-align: right;
+  background-color: #d1e7ff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.assistant {
+  text-align: left;
+  background-color: #f1f1f1;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.input-box {
+  display: flex;
+  margin-top: 10px;
+}
+.input-box input {
+  flex: 1;
+  padding: 10px;
+}
+.input-box button {
+  padding: 10px 20px;
+}
