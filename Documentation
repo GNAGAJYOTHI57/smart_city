@@ -1,1 +1,97 @@
 
+	Sustainable Smart City Assistant Using IBM Granite LLM
+Internship Project Documentation
+________________________________________
+🆔 Team ID
+LTVIP2025TMID34837
+________________________________________
+👥 1. Team Members
+•	👑 Team Leader: Galla Naga Jyothi
+•	👤 Team Member: Naga Saidalli
+•	👤 Team Member: K Sunil Kumar
+•	👤 Team Member: D Teja Lokesh
+________________________________________
+📄 2. Project Overview
+The Sustainable Smart City Assistant is an AI-driven application developed to support smart city planning and governance. The assistant uses the IBM Granite LLM model for providing intelligent responses, extracting insights from documents, and addressing citizen queries related to sustainable urban living.
+________________________________________
+🎯 3. Objective
+The goal of this project is to enhance the quality of urban governance and citizen engagement by leveraging a state-of-the-art Large Language Model (LLM). The assistant aims to:
+•	Simplify access to sustainable city policies and documents.
+•	Assist citizens by answering questions related to city planning.
+•	Enable quick and intelligent insights for city administrators.
+________________________________________
+⚡ 4. Technologies Used
+•	LLM Model: IBM Granite LLM
+•	Frameworks:
+o	Backend: Python (Flask / FastAPI)
+o	Frontend: React.js / Next.js
+•	Database: MongoDB / PostgreSQL
+•	Deployment: Docker, Kubernetes (optional)
+•	Additional Tools: IBM Watsonx Services, GitHub, Postman
+________________________________________
+🛠️ 5. Features
+✅ Intelligent Q/A on Sustainable Development Regulations
+✅ Policy Document Summarization
+✅ Interactive Chat Interface for Users
+✅ Provides Suggestions and Insights for Smart Cities
+✅ Supports Multilingual Queries (Future Scope)
+________________________________________
+🗂️ 6. Project Architecture
+High-Level Architecture:
+rust
+CopyEdit
+User --> Frontend (React.js) --> Backend (Flask / FastAPI) --> 
+    IBM Granite LLM Model --> Database (MongoDB / PostgreSQL)
+________________________________________
+🚀 7. Key Use Cases
+•	Helping urban planners quickly access relevant sustainable planning documents.
+•	Helping citizens understand sustainable policies and regulations.
+•	Helping city administrators make data-driven decisions.
+________________________________________
+📋 8. Prerequisites
+•	Node.js / npm installed
+•	Python 3.9+
+•	IBM Watsonx or IBM Granite LLM account
+•	Git for version control
+•	MongoDB / PostgreSQL database
+•	9. Installation & Setup
+1️⃣  Clone the Repository:
+git clone https://github.com/your-repo/sustainable-smart-city-assistant.git
+
+2️⃣ Install Dependencies:
+# Frontend
+cd frontend && npm install
+
+# Backend
+cd backend && pip install -r requirements.txt
+
+3️⃣ Configure Environment Variables:
+Create .env files for:
+•	IBM Granite LLM API_KEY
+•	Database Connection String
+•	Frontend Backend API URL
+4️⃣ Run the Project:
+# Backend
+uvicorn app:app --reload
+
+# Frontend
+npm run dev
+
+🗓️ 10. Project Timeline
+Phase	Duration
+Research & Design	Week 1 - Week 2
+Development	Week 3 - Week 6
+Testing & Refinement	Week 7 - Week 8
+Final Demo & Delivery	Week 9
+📈 11. Future Scope
+•	Integration with GIS platforms for spatial data analysis
+•	Incorporation of multi-language support
+•	Adding voice assistant capabilities
+•	Integrating mobile app support
+________________________________________
+🙏 12. Acknowledgements
+We acknowledge the guidance and support received from:
+•	Our mentors and faculty members.
+•	IBM Granite LLM and Watsonx platforms.
+•	The Smart Cities Mission for providing valuable resources and open data.
+
